@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="671C96F9-DD85-69A3-7908-BB595639A12E" containerWithKeyObject="E6819488-D5B1-1719-05AF-5D94ADA35339" localFKIndex="EF00E0AD-B421-9759-0FC3-5362FB75CADA" name="ALUMNO_ESTADO_CIVIL_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:35:05 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<referredTableLongName>ESTADO_CIVIL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>76EF1CBA-00A5-C42C-8A12-B2F62A92730F</referredTableID>
+<keyObject>AFC97F7D-7E68-6CE5-ED0E-C637F9510DE3</keyObject>
+<referredKeyID>AFC97F7D-7E68-6CE5-ED0E-C637F9510DE3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ESTADO_CIVIL</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

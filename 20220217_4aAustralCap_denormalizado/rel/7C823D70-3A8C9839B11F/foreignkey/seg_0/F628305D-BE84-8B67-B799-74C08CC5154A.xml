@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F628305D-BE84-8B67-B799-74C08CC5154A" containerWithKeyObject="BBBF60DC-110B-0D29-09C2-585EA437789D" localFKIndex="3B620094-94E7-8C11-6B5D-6D6F9BF2DE9C" name="CONTRATO_RELATOR_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:53:29 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<referredTableLongName>RELATOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>30206CCB-784B-9814-F6D5-84BE87FB698C</referredTableID>
+<keyObject>F9C5BF1E-E631-EC69-DBB4-3BE87442104A</keyObject>
+<referredKeyID>F9C5BF1E-E631-EC69-DBB4-3BE87442104A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_RELATOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

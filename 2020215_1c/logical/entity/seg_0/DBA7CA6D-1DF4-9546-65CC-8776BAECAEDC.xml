@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DBA7CA6D-1DF4-9546-65CC-8776BAECAEDC" name="tourRecorrido">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-16 14:25:08 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idTour" id="B2F7801D-79A7-5CD6-CC3A-5CD7926A1BDB">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-16 14:25:24 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idZona" id="4939DB06-003F-2AD3-4832-1BBEC6906613">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-16 14:25:43 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="orden" id="B9066786-F235-EFEF-96F7-5B92D668D6C4">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-16 14:26:03 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

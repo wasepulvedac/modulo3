@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6819488-D5B1-1719-05AF-5D94ADA35339" name="ALUMNO">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:25:12 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUT_ALUMNO" id="7C9B1EB7-BFC7-979D-82F1-737CA085EABD">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:33:06 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ALUMNO" id="26155CCB-5AA0-D410-8726-59093FA8F7F2">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:33:06 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FEC_ING" id="1788169D-FE57-2F5D-B8D8-7DB112A4B77D">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:33:06 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUELDO_BASE" id="12C6824F-947A-9127-5EF7-9B7B080B31D5">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:33:06 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_EST_CIVIL" id="606BCF89-1171-D7B8-CF62-A133B378F6D0">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:33:06 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="671C96F9-DD85-69A3-7908-BB595639A12E" referredColumn="BF6FE4C4-3A3A-4197-9FA3-86FBFFE0890C"/>
+</associations>
+</Column>
+<Column name="COD_EMPRESA" id="32595FE0-455E-85AF-8C44-74FF7324B891">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:33:06 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75315008-20B1-5A35-5527-C7128CD8B380" referredColumn="8175913A-B345-B87A-1C2A-F6C02ADA33F8"/>
+</associations>
+</Column>
+<Column name="COD_DEP" id="6529190B-64FD-BB8C-D1E1-4C51D2194839">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:33:06 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB40476C-77E6-2DD5-C9C5-390CF77E6B62" referredColumn="178546C2-83F3-5D0F-BB9D-D1753CBD134B"/>
+</associations>
+</Column>
+<Column name="ID_CARGO" id="4BE22B57-2755-5604-FC63-4DA8C29A20F5">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:33:06 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03522553-920B-3255-AF29-1DA78A9DBC8B" referredColumn="22FDC70A-E7F3-F36E-9EC6-83B071EB299E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB802BBE-6B7D-7C6A-C729-B5912522CE35" name="ALUMNO_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:33:06 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C9B1EB7-BFC7-979D-82F1-737CA085EABD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA50D2E7-516F-5EAA-E299-F6BBB3CC2B29" name="ALUMNO__UN">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:33:06 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26155CCB-5AA0-D410-8726-59093FA8F7F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87BE0E2A-16EC-A47B-BC33-CE7CFB2D503E" name="ALUMNO_CARGO_ALUMNO_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:35:05 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BE22B57-2755-5604-FC63-4DA8C29A20F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20EE0A74-2268-0692-2939-507364F8BCAE" name="ALUMNO_DEPARTAMENTO_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:35:05 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6529190B-64FD-BB8C-D1E1-4C51D2194839"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A2E244B-897D-06A0-94BA-735D7F9BE29F" name="ALUMNO_EMPRESA_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:35:05 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32595FE0-455E-85AF-8C44-74FF7324B891"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF00E0AD-B421-9759-0FC3-5362FB75CADA" name="ALUMNO_ESTADO_CIVIL_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:35:05 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="606BCF89-1171-D7B8-CF62-A133B378F6D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

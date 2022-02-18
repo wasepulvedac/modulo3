@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFB35BB5-B463-2882-3E05-95943DA631DF" name="Prestaciones">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 15:18:56 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="98E1DFF6-1456-46AC-E0D1-DD72C413AC6D">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:11:59 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="B7A7B3CC-1EBE-3AE0-4244-DD231C50AC2F">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:11:59 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valor" id="82338234-E1DA-DEBF-22FA-A5EB103BC736">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:11:59 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC636CB4-404B-8F35-5F56-150E79FF7B03" name="Prestaciones_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:11:59 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98E1DFF6-1456-46AC-E0D1-DD72C413AC6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

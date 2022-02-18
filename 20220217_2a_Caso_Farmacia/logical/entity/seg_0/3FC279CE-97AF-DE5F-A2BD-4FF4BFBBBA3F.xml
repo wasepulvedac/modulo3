@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FC279CE-97AF-DE5F-A2BD-4FF4BFBBBA3F" name="Trabajador">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:14:51 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="AC31B636-8997-FA67-5489-1AB83EB3FDFF">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:40:54 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="5D61F785-4938-62E7-8022-F096B7D008E5">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:41:55 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="4BDDF5CC-7E8A-BC6B-E840-7CE32AD02F03">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:43:11 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidoPaterno" id="D21512F1-22F7-DA1C-9BAA-1A66F74930B8">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:43:32 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidoMaterno" id="6403A547-2AB9-A5FC-0765-D1B10FF3523D">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:44:35 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="domicilio" id="25595EA5-8C2D-7A3D-4C03-D0077298C7EC">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:45:23 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroContacto" id="BF874293-C6BC-E68F-47F3-55BB9DED418D">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:45:55 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idFarmacia" id="C7115063-6796-2253-CB58-338638831BD9">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:51:59 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="B836963E-6DC7-2D08-A153-B1DBA01A3F9F">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:55:25 UTC</createdTime>
+<generatorID>E5466745-EB1F-0581-7A14-DCD3972C38BE</generatorID>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<referedAttribute>37896B99-A2ED-AE60-EC7F-BDE665EDE385</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="655759CA-2821-DFE3-232B-1C848428E180" name="Trabajador PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:41:43 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AC31B636-8997-FA67-5489-1AB83EB3FDFF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

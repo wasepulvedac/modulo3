@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="20220217_4aAustralCap" id="E58260A9-2879-EE80-350A-C0EEE6861938" version="3.5">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:07:09 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E58260A9-2879-EE80-350A-C0EEE6861938</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3E6CD9D3-F5C6-2472-D87B-D9617E247434">
+<designStoragePath>C:\Users\w.cuevas\Desktop\ModeloRegistroAsistencia</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

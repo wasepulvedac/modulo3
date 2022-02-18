@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="38339AB5-E440-C2B4-8C4F-C3410D858C6C" name="visitante">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-16 14:27:09 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="11F71401-2C1E-2E90-5DC2-FCB11E8BDC4E">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-16 14:33:12 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreCompleto" id="925BC584-E7EB-1988-53EF-B2A68912CA46">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-16 14:33:56 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad" id="70638D21-23DA-6606-5EF0-F7E355B36B65">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-16 14:34:18 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="9CA26004-5A78-43F1-9AE3-A8AE68DE3827">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-16 14:34:54 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

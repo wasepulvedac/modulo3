@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA69137A-D6D8-6403-2E39-AF410AAEF5EF" name="PrestacionesBono">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:37:44 UTC</createdTime>
+<generatorID>48172AE4-3050-E3A4-8899-61EBA31013A8</generatorID>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<engineerTo>
+<item key="DF83A6B2-F84E-807C-18F1-3AD4E6C09D9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idBono" id="434A3B65-9DB9-F27E-09B5-52672A454A26">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:37:44 UTC</createdTime>
+<generatorID>48812931-9CDC-DFD2-5F91-9F8CBE8CDBC3</generatorID>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<engineerTo>
+<item key="DF83A6B2-F84E-807C-18F1-3AD4E6C09D9C" value="true"/>
+</engineerTo>
+<referedAttribute>229F9B99-456B-51BA-9D5F-1915C3FA9A2A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPrestacion" id="474A774B-B716-BD9C-0923-C70B914413FE">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:37:44 UTC</createdTime>
+<generatorID>9CE76FD3-B5E9-65E7-A66B-ED1F1F5C911F</generatorID>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<engineerTo>
+<item key="DF83A6B2-F84E-807C-18F1-3AD4E6C09D9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prestaciones.id" id="FF882E1D-C8A8-474A-973B-2377A36CC367">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:37:44 UTC</createdTime>
+<generatorID>46C06F75-5D6E-8562-78A2-F3DEAC41BBBE</generatorID>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<engineerTo>
+<item key="DF83A6B2-F84E-807C-18F1-3AD4E6C09D9C" value="true"/>
+</engineerTo>
+<referedAttribute>10485753-AB71-5E21-1F3D-079C391E08C9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3AC62440-F7CF-29B6-69D8-2486B7EE90F2" name="Comuna">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:37:44 UTC</createdTime>
+<generatorID>FFB68647-826E-0171-C78D-9AECF167D9FE</generatorID>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<engineerTo>
+<item key="DF83A6B2-F84E-807C-18F1-3AD4E6C09D9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F7158E2F-D460-3BCF-3998-B7937BC8C91D">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:37:44 UTC</createdTime>
+<generatorID>FB7EC582-942B-0891-B6CE-76665957FE43</generatorID>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<engineerTo>
+<item key="DF83A6B2-F84E-807C-18F1-3AD4E6C09D9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comuna" id="004114D9-C22D-2078-3EC9-0806308CB3F1">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:37:44 UTC</createdTime>
+<generatorID>F7E4A18D-630C-5C59-92CF-2EFEFFE5780F</generatorID>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<engineerTo>
+<item key="DF83A6B2-F84E-807C-18F1-3AD4E6C09D9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8E8CDF92-5C72-F079-AD2B-C356827AC7D7" name="Comuna PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:37:44 UTC</createdTime>
+<generatorID>2986A600-8EBC-A10A-B15C-350EECC1E644</generatorID>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<engineerTo>
+<item key="DF83A6B2-F84E-807C-18F1-3AD4E6C09D9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7158E2F-D460-3BCF-3998-B7937BC8C91D</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="BED58FEA-ED02-3527-4CAD-E1395107B1D3" name="Comuna  UN">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:37:44 UTC</createdTime>
+<generatorID>094EE9FF-8E7C-E092-F477-DCB1B71C5CBD</generatorID>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<engineerTo>
+<item key="DF83A6B2-F84E-807C-18F1-3AD4E6C09D9C" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>004114D9-C22D-2078-3EC9-0806308CB3F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

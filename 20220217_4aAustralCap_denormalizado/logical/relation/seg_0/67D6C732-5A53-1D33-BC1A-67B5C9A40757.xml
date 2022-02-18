@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ALUMNO_DEPARTAMENTO_FK" directorySegmentName="seg_0" id="67D6C732-5A53-1D33-BC1A-67B5C9A40757">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-18 14:38:25 UTC</createdTime>
+<generatorID>AB40476C-77E6-2DD5-C9C5-390CF77E6B62</generatorID>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<engineerTo>
+<item key="7C823D70-349B-A3A6-5639-3A8C9839B11F" value="true"/>
+</engineerTo>
+<sourcePk>59313781-1605-867A-7E30-09D0A0F4EB2B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>16247AA3-AF9A-4C0F-F22B-470FF3D03D63</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9B4D7D6D-20C5-6997-B280-C75E0A2BA17D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

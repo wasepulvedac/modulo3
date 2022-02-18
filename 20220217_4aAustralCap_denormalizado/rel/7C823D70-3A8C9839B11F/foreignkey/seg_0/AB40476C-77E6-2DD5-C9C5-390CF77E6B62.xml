@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AB40476C-77E6-2DD5-C9C5-390CF77E6B62" containerWithKeyObject="E6819488-D5B1-1719-05AF-5D94ADA35339" localFKIndex="20EE0A74-2268-0692-2939-507364F8BCAE" name="ALUMNO_DEPARTAMENTO_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:35:05 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<referredTableLongName>DEPARTAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4E95880E-BC99-6C77-47A7-94276DBB068C</referredTableID>
+<keyObject>48F2781D-C561-D6BF-C878-4D7D2F4CBCFB</keyObject>
+<referredKeyID>48F2781D-C561-D6BF-C878-4D7D2F4CBCFB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_DEP</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

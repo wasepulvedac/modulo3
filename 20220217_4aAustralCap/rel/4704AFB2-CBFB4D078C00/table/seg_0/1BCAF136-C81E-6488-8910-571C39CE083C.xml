@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BCAF136-C81E-6488-8910-571C39CE083C" name="RegistroAsistencia">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>408E3251-60D9-302F-4C26-C493556AB72F</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>4BAEA618-E8DD-37F5-3165-EBF839155D63</importedID>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Mes_idMes" id="129DF7FF-9447-60EA-D63C-B7B159928DFD">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>38369028-E06C-BE5D-FE82-46DE86AFAF76</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>DD515EBC-20A6-D5CC-5CA7-D4A7B3FDF736</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3579C4F-D0ED-8017-0276-4BEAEEDE5975" referredColumn="27A40C8B-F176-ABC8-AE36-FDBC4769F744"/>
+</associations>
+</Column>
+<Column name="Empleado_idEmpleado" id="CCB3FD47-D1FE-0F45-909E-B8BFBB3EC601">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>AB930A7A-C743-55FE-48C9-DA68EB4E7E6D</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>1C68C033-64DC-8856-D20F-D66A23275EB8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1059E216-38ED-6C2C-D69B-06C77E1CC3CF" referredColumn="B37F33A1-82CD-52E6-70BC-DA6CA302C3F8"/>
+</associations>
+</Column>
+<Column name="idRegistroAsistencia" id="FC831F3F-0785-0B75-3681-A454535C8C1B">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>1D3DFA96-72D1-620C-0ADB-1491984AD64C</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>C04178BD-90C6-1C1C-BBDA-96198BBB00D8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dia" id="F9EAA739-B033-BD9D-44DB-C6816880594F">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>A7A37320-4190-50D8-248E-5688A5BCBDFD</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>7CBF5C09-EB99-7E1A-F93D-562D47CCFBF4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mes" id="1E3E9A39-5D0E-75A1-6A6C-85D199122348">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>A63BE033-DAC3-4E2B-AB80-2C6AAA3D2404</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>66859C72-7E2C-ECB1-DCA0-653450174B38</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Anno" id="44C52CF6-BD88-D7C9-0E88-0F277C012387">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>1C8360E2-4043-D7C7-18CF-501ADF474E5C</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>4B201829-5F27-C3C8-132E-5BDCFB60D0E0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB6F7B8D-44D6-3ADD-7BF6-C1B4BFF00789" name="RegistroAsistencia_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>29350E13-85E2-9E8D-A1FC-0070BAC156E7</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>2B666C25-DADD-D652-8E1C-9E16EAC8DA9A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC831F3F-0785-0B75-3681-A454535C8C1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26EF7598-64F5-B4D3-A3E0-0DD7986CBD84" name="RegistroAsistencia_Mes_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>3EAD6076-D8E0-37DE-5532-B8AB4384BFA5</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="129DF7FF-9447-60EA-D63C-B7B159928DFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D44C0A56-B881-0A8D-81E5-9A6F531FC29F" name="RegistroAsistencia_Empleado_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>1C4788AC-0940-0499-BFF4-657E30C799B9</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCB3FD47-D1FE-0F45-909E-B8BFBB3EC601"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

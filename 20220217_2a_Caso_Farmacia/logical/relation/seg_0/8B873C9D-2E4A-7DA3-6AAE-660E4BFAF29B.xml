@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="8B873C9D-2E4A-7DA3-6AAE-660E4BFAF29B">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:57:20 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6A57FCE2-A3F1-0752-889A-85A08AC632B0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6961D6F9-F30C-DB27-459D-D31762F9558B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

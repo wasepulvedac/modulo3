@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Provincia Region FK" directorySegmentName="seg_0" id="8B568FFC-5D87-5F12-1BBB-9838F032B8D3">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>84617DA3-38DA-6788-8969-7DD0D7CACD70</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+</engineerTo>
+<sourcePk>B49573B6-2A16-A656-851A-19E63883AE78</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>32C74858-4E58-06EB-492A-1A85B66936D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>519E05AE-1CE8-65D6-3134-FA318B26CCE8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

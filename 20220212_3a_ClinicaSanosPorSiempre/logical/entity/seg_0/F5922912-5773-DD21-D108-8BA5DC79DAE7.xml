@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5922912-5773-DD21-D108-8BA5DC79DAE7" name="isapre">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:37:44 UTC</createdTime>
+<generatorID>877A7717-DEC3-986E-2E9D-4FA9C2982C17</generatorID>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<engineerTo>
+<item key="DF83A6B2-F84E-807C-18F1-3AD4E6C09D9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C46B98FF-4ADA-2BB9-6702-9149D01A01D1">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:37:44 UTC</createdTime>
+<generatorID>77DEC7DF-9F54-3DB8-9EFA-5A35BD506EA7</generatorID>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<engineerTo>
+<item key="DF83A6B2-F84E-807C-18F1-3AD4E6C09D9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="1B65C542-EEDF-D456-F79A-13CD956C04A7">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:37:44 UTC</createdTime>
+<generatorID>4C16BBE6-E077-A910-3CD5-EC6FB6A2D015</generatorID>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<engineerTo>
+<item key="DF83A6B2-F84E-807C-18F1-3AD4E6C09D9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D3F4D05C-B8A3-4AE2-0206-E8BBA7935D3D" name="isapre PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:37:44 UTC</createdTime>
+<generatorID>DB26257C-A1A7-6994-4060-D2A833A9AD1C</generatorID>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<engineerTo>
+<item key="DF83A6B2-F84E-807C-18F1-3AD4E6C09D9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C46B98FF-4ADA-2BB9-6702-9149D01A01D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01C581F7-C518-56FF-73D6-39639B57C1C3" name="Empresa">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>EE2BFA3A-002D-3E8F-7DC3-BF955F217786</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+<item key="501F2F54-23B6-504C-A578-2DDAABDF5CEA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idEmpresa" id="846E61C1-D1BC-905A-271F-C28188673345">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>F79958C3-0952-FFAE-D3A2-82078FB9E95F</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+<item key="501F2F54-23B6-504C-A578-2DDAABDF5CEA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NombreEmpresa" id="7D461F06-9AEA-954E-34ED-5724A75169E2">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>DE86930D-AE0C-F7AE-745B-CFED68EBA8A8</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+<item key="501F2F54-23B6-504C-A578-2DDAABDF5CEA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaCreacion" id="5E70FB05-D258-8849-9AFA-D28367EA9E57">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>37C842CE-A953-443B-A04C-ECD3C007A024</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+<item key="501F2F54-23B6-504C-A578-2DDAABDF5CEA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A27D691-B5D9-04C1-D2A7-E379B72DB659" name="Empresa PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>935398FB-71DF-62EF-CB07-BBEDC5EF8439</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+<item key="501F2F54-23B6-504C-A578-2DDAABDF5CEA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>846E61C1-D1BC-905A-271F-C28188673345</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

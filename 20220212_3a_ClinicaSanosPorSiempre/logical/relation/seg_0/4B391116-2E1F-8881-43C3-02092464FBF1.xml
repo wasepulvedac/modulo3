@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Beneficiario_Comuna_FK" directorySegmentName="seg_0" id="4B391116-2E1F-8881-43C3-02092464FBF1">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:37:44 UTC</createdTime>
+<generatorID>3F8A2AE2-17B6-C1FD-580B-11AC924D4268</generatorID>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<engineerTo>
+<item key="DF83A6B2-F84E-807C-18F1-3AD4E6C09D9C" value="true"/>
+</engineerTo>
+<sourcePk>8E8CDF92-5C72-F079-AD2B-C356827AC7D7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3AC62440-F7CF-29B6-69D8-2486B7EE90F2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DA29A67E-AF66-940C-2253-DC2DEC0462DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

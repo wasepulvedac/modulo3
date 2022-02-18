@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8BF64894-7F85-6296-33AA-511DE2C4CC86" name="Producto">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:15:47 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="FCD9BB5C-BC50-CC05-375D-ECF340BDD791">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:16:03 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="B024F80E-1A43-B099-A44D-E9A705F2F63B">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:16:17 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="FAE4E52A-D887-57AF-C61D-648F687F3D98">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:16:45 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="427E1D8B-5703-AE8B-E995-B3082AA7B19C">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:17:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cantidad en mg del componente activo principal]]></commentInRDBMS>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idLaboratorio" id="AB71582F-C38D-BC84-108E-F7315CEE71E0">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:18:13 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorReferencial" id="3F30DA95-75E6-3F47-B0BD-09E6348D1EA5">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:40:21 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="08588EC4-FDCA-C5FB-8856-D514BFF7EE8D" name="Producto PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:16:14 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<engineerTo>
+<item key="9D24FAC3-EEF5-2C48-D336-CF18FC8415FD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCD9BB5C-BC50-CC05-375D-ECF340BDD791</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

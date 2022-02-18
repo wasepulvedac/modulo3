@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="519E05AE-1CE8-65D6-3134-FA318B26CCE8" name="Provincia">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>5B7F7217-2675-2EFA-4E52-F5BCCA11DE0C</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idProvincia" id="A033218B-3362-B09A-EB8B-E6DE5F1816B4">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>1DBB6651-E929-3427-2EA1-7039D9450469</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DescripcionProvincia" id="4984F6B7-00EF-BB34-1B9B-4843299A1A93">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>68C18CCC-8109-3310-B15E-7499E69BB93B</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Region idRegion" id="5531623E-B8B9-036B-8454-B54DFAE85B1A">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>8B568FFC-5D87-5F12-1BBB-9838F032B8D3</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>E9981C45-6E99-44CD-4CA8-CB7B9F1B7F2A</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+</engineerTo>
+<referedAttribute>34D73130-7755-2125-CAC9-6D364EBD28DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6BA0F4D9-F647-2DB8-1631-AC16C4716B0C" name="Provincia PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>8CDF85E1-EE5E-8D82-1272-601BCBA49685</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A033218B-3362-B09A-EB8B-E6DE5F1816B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

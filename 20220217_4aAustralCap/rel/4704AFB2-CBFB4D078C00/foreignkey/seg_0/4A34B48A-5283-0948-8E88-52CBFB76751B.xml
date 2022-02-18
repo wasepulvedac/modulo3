@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4A34B48A-5283-0948-8E88-52CBFB76751B" containerWithKeyObject="30A2F1EF-1F34-F7E7-5CFC-0ABB2790540F" localFKIndex="7AC155DF-8579-351A-8E7D-B8A017991795" name="Provincia_Region_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>8B568FFC-5D87-5F12-1BBB-9838F032B8D3</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>029345E0-4D32-0500-78DC-FD41D1701322</importedID>
+<referredTableLongName>Region</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>73745A58-AEA1-D835-AD8A-37AEA58C15D6</referredTableID>
+<keyObject>C7B9FC0E-14F8-828D-6704-4CE5D5EBFF46</keyObject>
+<referredKeyID>C7B9FC0E-14F8-828D-6704-4CE5D5EBFF46</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idRegion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

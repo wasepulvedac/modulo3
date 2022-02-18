@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="281CAE24-33D0-C193-A574-E169748627D2" name="EstadoCivil">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>17C4FE0F-90F2-1D3D-9EED-FB15020EB57E</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>15CAB130-0D75-04F5-AD2D-BDACD4187D26</importedID>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEstadoCivil" id="422D7928-7963-2B9B-A036-5A3FCF0BFF86">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>129CF5BD-8B6F-ED43-1EC2-F50EEFFDE174</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>830C4B0C-0883-D325-A421-E129A460F72C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DescripcionEstadoCivil" id="4C0D06C1-46C7-2688-4F5F-16EDE05A7E2A">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>5D181F50-EB69-C78A-6C49-6A7AA2C33644</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>2CFCB827-23EB-608E-32CF-658597D61FB4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDD9240C-8C0A-2E48-0D17-9BF15CC32B7A" name="EstadoCivil_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>19994C66-8F40-A80A-BE83-7E42EE7ACD4F</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>2BA621F3-6942-697C-6FEF-32900899653D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="422D7928-7963-2B9B-A036-5A3FCF0BFF86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

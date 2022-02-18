@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D9E233E-6D23-D9AB-B7AA-521EFE837BB7" name="Empleado">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>343013D4-80DC-CDD5-C5B4-18333772F04A</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>C30F07D0-A792-8DD5-C5F3-B808D1061951</importedID>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Region_idRegion" id="B9A5EBB6-20CC-94DD-74D1-2DE4078C0821">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>DC310A5D-D41A-F9A5-A64D-E41635ACFCCA</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>7FA6BA9E-5F38-215D-0FFC-B82DA0150F43</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D46D426-5FA6-61E2-66F1-C7987CA8F563" referredColumn="3FE19D17-4DDC-28A0-CFAF-F5E8D51BC46F"/>
+</associations>
+</Column>
+<Column name="idEmpleado" id="B37F33A1-82CD-52E6-70BC-DA6CA302C3F8">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>543AFDFC-5C95-AB46-128A-732E4D531BFC</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>619D6FA2-C91C-0716-2B78-74C69E58BB27</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RutEmpleado" id="42FEBF02-D5FC-C7A4-4D57-A8167FA7B5DA">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>E7895130-928E-3D13-AD92-AE52C9D9627F</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>5B3F48D4-6361-6D53-4C97-79A379CF6677</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreEmpleado" id="F472A646-D641-5BCE-839C-7838904CE12E">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>FBE68CB8-0CFA-AAF2-CA26-9C4BB7DEC000</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>E2AB052A-A87F-76E4-F4AD-7784C06E1A67</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ApellidosEmpleado" id="F569A3BB-6EEC-0495-948E-6160FD264A4F">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>8E49AE51-165A-48C4-6950-E857CED7B4DE</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>271D3E9E-2D85-74CB-F947-DC28C91753AF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaNacimiento" id="0DCE846C-12B1-7A0D-12E8-4914D468672A">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>996AC223-0C69-449F-327F-A43C1E7EA226</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>A6B9895A-F527-2373-0EDF-938B82B7D55E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sueldo" id="425C9CC8-EA59-7446-5582-434A42F8C3A3">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>C95C38DB-AD51-9804-16F0-11F96627434C</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>AC3E137B-2749-350D-47F7-75773E94523C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EstadoCivil_idEstadoCivil" id="8C7597DE-8340-2107-2765-4828D6DF5FB0">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>70D3F493-5AE0-26A8-5C74-57C3BF855E38</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>67831CBE-949C-F1AA-BD0D-0C08DE693B30</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="310B8D3B-54F2-5154-94AC-1649230AB108" referredColumn="422D7928-7963-2B9B-A036-5A3FCF0BFF86"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="555DAB77-73EC-9EC2-2FC8-C6094DA4641D" name="Empleado_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>4BD4B0C0-AE85-0475-3774-2C6D6BCC2C1B</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>BFBA4E1C-5314-946D-D00C-66D901321019</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B37F33A1-82CD-52E6-70BC-DA6CA302C3F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="475EC0D3-9AA1-CED0-F1C3-2173C5442E76" name="Empleado_EstadoCivil_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>AF388A1C-13B7-474E-5CB3-4E97BFFD3E63</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C7597DE-8340-2107-2765-4828D6DF5FB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90A73187-E20E-F4DE-C159-CB865E574552" name="Empleado_Region_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>F6923026-FBE6-56F9-157D-F131DF5E5B4E</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9A5EBB6-20CC-94DD-74D1-2DE4078C0821"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

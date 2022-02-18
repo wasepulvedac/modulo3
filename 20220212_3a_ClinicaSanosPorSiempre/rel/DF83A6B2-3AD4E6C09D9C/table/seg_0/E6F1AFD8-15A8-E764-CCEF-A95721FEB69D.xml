@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6F1AFD8-15A8-E764-CCEF-A95721FEB69D" name="Bono">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 15:07:23 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="4F17296B-BE75-C529-58AE-1182599E07C6">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 15:18:46 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaCreacion" id="8176B2AA-5E8C-038F-25DE-A03FEF4AC299">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 15:18:46 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="validez" id="DCFEC783-528D-413C-60FE-FF33F0365784">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 15:25:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Duracion del bono, en meses]]></commentInRDBMS>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idSucursal" id="09F8E637-42F3-EBF6-13BA-828CDCE5CE43">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 15:25:12 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idCajero" id="B0F6FAD1-DE93-27B7-4625-ADB89384724B">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 15:25:12 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADE26B07-0780-8FA9-8870-FF1A4DCA40A7" referredColumn="49D3C3DF-6710-68DB-6E5D-3684F4013E65"/>
+</associations>
+</Column>
+<Column name="idBeneficiario" id="B8F4167B-A51D-CC1C-6699-F20F98AFB3A2">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 15:25:12 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0685310C-BF4E-3E5B-8961-E68019B12BD3" referredColumn="9F0052D0-2692-6581-C646-E77DC36E3C12"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBEBC3F0-E942-34C5-ECA1-1B8D49E153F5" name="receta_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 15:18:46 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F17296B-BE75-C529-58AE-1182599E07C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54B70676-7CD4-40E7-0348-D91BF5B80D9B" name="Bono_Beneficiario_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:04:54 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8F4167B-A51D-CC1C-6699-F20F98AFB3A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89923AE2-0853-FDCE-16AB-0A749CAF5784" name="Bono_Cajero_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:05:09 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0F6FAD1-DE93-27B7-4625-ADB89384724B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

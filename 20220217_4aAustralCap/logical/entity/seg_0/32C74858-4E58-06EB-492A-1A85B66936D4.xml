@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32C74858-4E58-06EB-492A-1A85B66936D4" name="Region">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>E23142CF-F04E-409D-9F39-030C4F42C1DF</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+<item key="501F2F54-23B6-504C-A578-2DDAABDF5CEA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idRegion" id="34D73130-7755-2125-CAC9-6D364EBD28DB">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>551E0340-990C-9AF4-6CC6-17A74CEB71FB</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+<item key="501F2F54-23B6-504C-A578-2DDAABDF5CEA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DescripcionRegion" id="53710D94-0AF2-0594-4B76-0B01955DC51E">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>5349402D-D737-3DDB-D928-DA72EFF4F337</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+<item key="501F2F54-23B6-504C-A578-2DDAABDF5CEA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B49573B6-2A16-A656-851A-19E63883AE78" name="Region PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>CBBAC5A3-BF5A-DAAF-3A9A-DC6555BADFAF</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+<item key="501F2F54-23B6-504C-A578-2DDAABDF5CEA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>34D73130-7755-2125-CAC9-6D364EBD28DB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACEB9D50-634E-F174-A53E-ED2463568576" name="Habitat">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-15 17:20:01 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="E83CC348-2B8F-A5B6-3753-2FDE6B60A201">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-15 17:20:40 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="2C9DC04B-2E49-49CC-4B98-461825596FE9">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-15 17:21:31 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idClima" id="6BBB87CC-7050-60E6-8587-6204B9EADF43">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-15 17:21:49 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idTipoVegetacion" id="1E957B3D-7208-8B7C-38FA-969867DD95C4">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-15 17:22:58 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idContinente" id="BE874C33-8EC7-B9DD-B274-22409667B59F">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-15 17:23:49 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idZona" id="C1D9B50B-1D24-9059-4762-736550E0FF01">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-16 14:49:19 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="975B9F86-F966-AC70-BDAA-1670B0EA87C8" name="Habitat PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-15 17:21:18 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E83CC348-2B8F-A5B6-3753-2FDE6B60A201</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

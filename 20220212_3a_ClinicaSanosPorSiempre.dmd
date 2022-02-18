@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="20220212_3a_ClinicaSanosPorSiempre" id="10446734-4369-4468-EC71-7592CE43CC98" version="3.5">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 15:05:28 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>10446734-4369-4468-EC71-7592CE43CC98</designId>
+</OSDM_Design>

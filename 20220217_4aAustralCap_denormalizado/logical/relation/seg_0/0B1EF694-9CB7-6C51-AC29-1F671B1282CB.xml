@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMUNA_REGION_FK" directorySegmentName="seg_0" id="0B1EF694-9CB7-6C51-AC29-1F671B1282CB">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-18 14:38:25 UTC</createdTime>
+<generatorID>BCC873CB-AD89-5331-5B26-DE368C900EDC</generatorID>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<engineerTo>
+<item key="7C823D70-349B-A3A6-5639-3A8C9839B11F" value="true"/>
+</engineerTo>
+<sourcePk>389148A9-F223-7EB7-B262-9A88CC087E46</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5F61240F-9B86-C58A-1234-C3CFDB94494A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1C0F6C00-9E7B-D5CB-C8DB-A5B2A1B53D98</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

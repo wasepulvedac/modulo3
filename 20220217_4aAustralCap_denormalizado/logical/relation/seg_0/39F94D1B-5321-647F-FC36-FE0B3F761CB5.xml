@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTRATO_CURSO_FK" directorySegmentName="seg_0" id="39F94D1B-5321-647F-FC36-FE0B3F761CB5">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-18 14:38:25 UTC</createdTime>
+<generatorID>4815888A-C99E-9479-887E-309A1BEFC74E</generatorID>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<engineerTo>
+<item key="7C823D70-349B-A3A6-5639-3A8C9839B11F" value="true"/>
+</engineerTo>
+<sourcePk>CAC94469-7C64-AE06-C599-14BCB6D439F5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B2096C81-F394-B02F-8CD6-333E9798C4A8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>30A733FA-3777-9FAB-6166-7AA577101604</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

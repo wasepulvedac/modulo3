@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTRATO_RELATOR_FK" directorySegmentName="seg_0" id="E2B2556A-121F-B3E8-441A-102BC53174C5">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-18 14:38:25 UTC</createdTime>
+<generatorID>F628305D-BE84-8B67-B799-74C08CC5154A</generatorID>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<engineerTo>
+<item key="7C823D70-349B-A3A6-5639-3A8C9839B11F" value="true"/>
+</engineerTo>
+<sourcePk>CC5FAE05-68A5-3939-CA76-6BC2609AD57D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>04137D62-1A9A-C23C-3DEE-92ED0DD40AA2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>30A733FA-3777-9FAB-6166-7AA577101604</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

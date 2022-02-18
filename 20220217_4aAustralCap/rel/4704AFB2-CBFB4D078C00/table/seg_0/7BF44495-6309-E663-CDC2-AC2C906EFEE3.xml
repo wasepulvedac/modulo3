@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BF44495-6309-E663-CDC2-AC2C906EFEE3" name="Mes">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>F8A13343-F3A0-BFD9-6F77-11F547315B7C</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>08DF6055-0CA7-3A36-DA77-61981E4FDB45</importedID>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idMes" id="27A40C8B-F176-ABC8-AE36-FDBC4769F744">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>01DA8335-00B3-6007-C6B0-B21403D494EB</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>4192151D-68AD-6FB5-0BA3-1827FEFB8A3C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DescripcionMes" id="607D6DE0-1E94-0F74-0FFA-25934E6DAB2B">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>3D868DFB-2304-89A0-A060-DCBEB93016FF</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>EA9E800A-1C8F-70DD-B969-7FD3077FB3AF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCFEBB04-CD7D-3A59-3D0D-9509F11F5992" name="Mes_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>AEDCBAEE-E8A6-D471-6B02-C0FAC96AB33A</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>87265A1A-7FEE-A1DC-FAE9-0BC1D0A8E38F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27A40C8B-F176-ABC8-AE36-FDBC4769F744"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67D1A917-7863-BDC9-AD95-83484FFA4413" name="Empresa">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>01C581F7-C518-56FF-73D6-39639B57C1C3</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>CC9E8798-6471-3464-9BB1-4CE39BE4F964</importedID>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEmpresa" id="069F0880-3213-22DC-4763-92675C58FD1D">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>846E61C1-D1BC-905A-271F-C28188673345</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>C9F641EF-F20B-BE5C-0230-5DB6BC2CEC7B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreEmpresa" id="4FFC58AA-6801-AFFB-5C2F-9E3F1D63EC0E">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>7D461F06-9AEA-954E-34ED-5724A75169E2</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>1B07ED2A-47E5-29D7-1F86-0726211A2E66</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaCreacion" id="36DF48DD-7C8B-A292-E8A4-A48B8CC4618B">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>5E70FB05-D258-8849-9AFA-D28367EA9E57</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>783F5F76-0FEF-73EE-5078-C7561C15AF5B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F013C45-DDA9-B476-F34E-92B24B5DBACF" name="Empresa_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>8A27D691-B5D9-04C1-D2A7-E379B72DB659</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>F3A365BD-5109-DED7-A245-8F70739531DC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="069F0880-3213-22DC-4763-92675C58FD1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

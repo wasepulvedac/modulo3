@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCD03A5E-3D0A-E6AE-9758-36AAA5391CA3" name="Cajero">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 15:20:30 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="49D3C3DF-6710-68DB-6E5D-3684F4013E65">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:01:19 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="4E5AAF51-D14A-1254-EE18-426F4B929CFA">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:01:19 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidoPaterno" id="702D2C89-BE05-82F4-2FAC-AD3BFFD0735C">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:01:19 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidoMaterno" id="2024204C-6E11-C98C-182D-4B2591ED5AD0">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:01:19 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idSucursal" id="6EA8C3EE-A105-4A80-903A-5BEF5580EB79">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:02:03 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E97F543-DF64-8B9B-E30C-B2088EF3956B" referredColumn="2E58F604-4D46-E717-66B3-851C001855FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7BADA28-1ECA-4A7F-76B9-D78D343D8BFE" name="Cajero_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:01:19 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49D3C3DF-6710-68DB-6E5D-3684F4013E65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69C285EB-7E22-A4F9-B088-6384846B3659" name="Cajero_Sucursal_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:03:15 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EA8C3EE-A105-4A80-903A-5BEF5580EB79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E960591-E6AB-4E58-7C12-E0D405973459" name="Clima">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-16 16:14:57 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C415BA1F-6A87-BE2B-D1F5-C52DDCCDE91A">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-16 16:16:56 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clima" id="333EFAE4-F375-0B99-A981-7265A4B565D8">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-16 16:16:56 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE4B9466-EFE3-CCCA-E67D-854A8E619EEF" name="Clima_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-16 16:16:56 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C415BA1F-6A87-BE2B-D1F5-C52DDCCDE91A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97ECCEBD-01EB-75D2-5C29-7E0FA4C1A3E2" name="Clima__IDX">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-16 16:16:56 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="333EFAE4-F375-0B99-A981-7265A4B565D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

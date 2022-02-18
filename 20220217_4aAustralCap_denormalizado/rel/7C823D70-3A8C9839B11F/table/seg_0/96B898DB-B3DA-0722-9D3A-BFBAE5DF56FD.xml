@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96B898DB-B3DA-0722-9D3A-BFBAE5DF56FD" name="CURSO">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:20:18 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CURSO" id="ED78A234-41DA-158A-A10D-FF3BD70C3E10">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:24:22 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CURSO" id="059D2FC7-EBC4-E3A9-55DD-9C68722F3856">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:24:22 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_CURSO" id="026065F0-58CD-3107-5638-01D4CD1CF06A">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:24:22 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPO_AREA" id="3402E82D-439C-F1FB-6831-928F33866216">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:24:22 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5429BC65-F763-2F1B-64D3-EF0C188871E3" referredColumn="31688A67-4D88-816B-EA90-4FCE1AD6E911"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7002A6D7-77A8-775C-DCFB-A92A6750DBB0" name="CURSO_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:24:22 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED78A234-41DA-158A-A10D-FF3BD70C3E10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B560C65C-D731-AD9A-B7EA-EF152B502C1C" name="CURSO__UN">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:24:22 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="059D2FC7-EBC4-E3A9-55DD-9C68722F3856"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3A43420-3751-E31C-FEF9-78C7DE85A3BF" name="TABLE_14_AREA_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:24:22 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3402E82D-439C-F1FB-6831-928F33866216"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="064A18B4-1976-A0DC-0C77-8E31F5B8CDE6" containerWithKeyObject="30206CCB-784B-9814-F6D5-84BE87FB698C" localFKIndex="D29BDEC7-3D67-E973-3C1F-667B6A512B92" name="TABLE_17_TIPO_TITULO_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:46:47 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<referredTableLongName>TIPO_TITULO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4D5954D6-C04C-5746-190D-6532ECF08A16</referredTableID>
+<keyObject>8287F662-7C74-34F4-F2AF-1297C1678E42</keyObject>
+<referredKeyID>8287F662-7C74-34F4-F2AF-1297C1678E42</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIPO_TITULO</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

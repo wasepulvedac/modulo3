@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_16" directorySegmentName="seg_0" id="EC6BFC53-D7D7-5DA7-D803-C277B3353656">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-16 15:26:15 UTC</createdTime>
+<ownerDesignName>2020215_1c</ownerDesignName>
+<engineerTo>
+<item key="58E718F9-6970-CF39-7744-4E4228EA9241" value="true"/>
+<item key="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B785098B-D0FA-A7AF-7670-92A6FB2C2027</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>38339AB5-E440-C2B4-8C4F-C3410D858C6C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

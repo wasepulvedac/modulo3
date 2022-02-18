@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="1E960591-E6AB-4E58-7C12-E0D405973459" name="Clima" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="702A4CD5-B039-8D9A-4DBC-3B17BE29B835" name="EstadoEspecie" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="C5DDC4CC-996B-8BA3-266D-41FAFF94125E" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

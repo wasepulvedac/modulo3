@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73745A58-AEA1-D835-AD8A-37AEA58C15D6" name="Region">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>32C74858-4E58-06EB-492A-1A85B66936D4</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>DCA5D092-5FD5-77D7-B9D2-F12037544B3F</importedID>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idRegion" id="3FE19D17-4DDC-28A0-CFAF-F5E8D51BC46F">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>34D73130-7755-2125-CAC9-6D364EBD28DB</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>EAF7C558-E8A9-965D-D418-A84009C3CCE4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DescripcionRegion" id="90EC9AFD-2F2E-E70A-0D7A-9241CD819B57">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>53710D94-0AF2-0594-4B76-0B01955DC51E</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>A9D55120-FF51-0E5B-76AF-0AE3EEE754FC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7B9FC0E-14F8-828D-6704-4CE5D5EBFF46" name="Region_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>B49573B6-2A16-A656-851A-19E63883AE78</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>D0AE3357-D3E9-730D-EEF4-4998FD81073C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FE19D17-4DDC-28A0-CFAF-F5E8D51BC46F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

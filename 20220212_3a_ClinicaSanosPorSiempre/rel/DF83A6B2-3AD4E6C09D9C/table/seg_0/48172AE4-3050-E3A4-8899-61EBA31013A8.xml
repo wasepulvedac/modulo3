@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48172AE4-3050-E3A4-8899-61EBA31013A8" name="PrestacionesBono">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:29:26 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idBono" id="9ACC0354-95F5-CA94-8F18-FCA2C6AD1E67">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:34:27 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE85562D-263D-24EA-AB40-715D1F4D93A4" referredColumn="4F17296B-BE75-C529-58AE-1182599E07C6"/>
+<colAssociation fkAssociation="82CE3C51-E3B6-884A-ADFE-303C686804A3" referredColumn="98E1DFF6-1456-46AC-E0D1-DD72C413AC6D"/>
+</associations>
+</Column>
+<Column name="idPrestacion" id="9CE76FD3-B5E9-65E7-A66B-ED1F1F5C911F">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:34:27 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D57C154-BE1C-6D00-6D8C-91E79E31DAA3" name="TABLE_9_Bono_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:34:27 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ACC0354-95F5-CA94-8F18-FCA2C6AD1E67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6DD0651-0137-1278-381C-FE01F003DEC9" name="TABLE_9_Prestaciones_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:34:27 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ACC0354-95F5-CA94-8F18-FCA2C6AD1E67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E666DE67-F772-365F-33EE-8B2266345EFA" mainViewID="66906661-E4D2-8241-25FE-B73576703CD3">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 15:05:28 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFB68647-826E-0171-C78D-9AECF167D9FE" name="Comuna">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:20:02 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FB7EC582-942B-0891-B6CE-76665957FE43">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:21:03 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comuna" id="F7E4A18D-630C-5C59-92CF-2EFEFFE5780F">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:21:03 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2986A600-8EBC-A10A-B15C-350EECC1E644" name="Comuna_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:21:03 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB7EC582-942B-0891-B6CE-76665957FE43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="094EE9FF-8E7C-E092-F477-DCB1B71C5CBD" name="Comuna__UN">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:21:26 UTC</createdTime>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7E4A18D-630C-5C59-92CF-2EFEFFE5780F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

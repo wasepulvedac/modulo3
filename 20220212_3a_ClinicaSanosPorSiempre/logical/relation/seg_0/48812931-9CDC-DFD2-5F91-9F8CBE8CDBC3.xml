@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TABLE_9_Bono_FK" directorySegmentName="seg_0" id="48812931-9CDC-DFD2-5F91-9F8CBE8CDBC3">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 16:37:44 UTC</createdTime>
+<generatorID>DE85562D-263D-24EA-AB40-715D1F4D93A4</generatorID>
+<ownerDesignName>20220212_3a_ClinicaSanosPorSiempre</ownerDesignName>
+<engineerTo>
+<item key="DF83A6B2-F84E-807C-18F1-3AD4E6C09D9C" value="true"/>
+</engineerTo>
+<sourcePk>761CAD0E-3740-50C0-94B5-E4A3A85D934E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AF858F52-AE80-7E3C-E796-17722D3E0814</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CA69137A-D6D8-6403-2E39-AF410AAEF5EF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

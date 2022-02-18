@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Comuna Provincia FK" directorySegmentName="seg_0" id="72961A9F-6B38-898C-23C7-6F532394D33B">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>E61F3E88-09F4-C878-A51A-6843CF04F5D4</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+</engineerTo>
+<sourcePk>6BA0F4D9-F647-2DB8-1631-AC16C4716B0C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>519E05AE-1CE8-65D6-3134-FA318B26CCE8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EBC870D8-B684-5A8C-393E-6CEA8E185D6F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

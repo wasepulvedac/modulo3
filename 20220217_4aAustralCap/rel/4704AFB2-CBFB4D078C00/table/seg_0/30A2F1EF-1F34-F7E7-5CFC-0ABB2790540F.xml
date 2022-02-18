@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30A2F1EF-1F34-F7E7-5CFC-0ABB2790540F" name="Provincia">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>519E05AE-1CE8-65D6-3134-FA318B26CCE8</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>A44BAF93-0E6B-A171-BD25-B599DF591BBC</importedID>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProvincia" id="764C7FB0-AFDA-5432-D0B4-A9B450CB2214">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>A033218B-3362-B09A-EB8B-E6DE5F1816B4</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>16949950-65D5-044F-7101-69BCF3899EDA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DescripcionProvincia" id="EDAD28D5-3C60-5BEB-B745-C819CAFD3E2D">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>4984F6B7-00EF-BB34-1B9B-4843299A1A93</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>731C0190-86A0-ED0C-1B5E-D401F9FA8E80</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region_idRegion" id="87CD0E28-17C7-D168-A1CC-65353CFE5F2D">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>5531623E-B8B9-036B-8454-B54DFAE85B1A</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>51E1F5B1-BAA6-EC55-0056-A91C07F1685C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A34B48A-5283-0948-8E88-52CBFB76751B" referredColumn="3FE19D17-4DDC-28A0-CFAF-F5E8D51BC46F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A661E19B-9542-3A5E-B0A3-06C72DA3E21D" name="Provincia_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>6BA0F4D9-F647-2DB8-1631-AC16C4716B0C</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>6870CF12-DA54-6A9A-A5A2-64FADFB4565E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="764C7FB0-AFDA-5432-D0B4-A9B450CB2214"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AC155DF-8579-351A-8E7D-B8A017991795" name="Provincia_Region_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>8B568FFC-5D87-5F12-1BBB-9838F032B8D3</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87CD0E28-17C7-D168-A1CC-65353CFE5F2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

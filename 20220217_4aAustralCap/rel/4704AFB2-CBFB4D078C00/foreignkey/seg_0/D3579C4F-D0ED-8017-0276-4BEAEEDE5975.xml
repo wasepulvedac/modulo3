@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D3579C4F-D0ED-8017-0276-4BEAEEDE5975" containerWithKeyObject="1BCAF136-C81E-6488-8910-571C39CE083C" localFKIndex="26EF7598-64F5-B4D3-A3E0-0DD7986CBD84" name="RegistroAsistencia_Mes_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<generatorID>3EAD6076-D8E0-37DE-5532-B8AB4384BFA5</generatorID>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>2F589C1D-94AB-3FD8-65D6-7B1C7599B20B</importedID>
+<referredTableLongName>Mes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7BF44495-6309-E663-CDC2-AC2C906EFEE3</referredTableID>
+<keyObject>CCFEBB04-CD7D-3A59-3D0D-9509F11F5992</keyObject>
+<referredKeyID>CCFEBB04-CD7D-3A59-3D0D-9509F11F5992</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idMes</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

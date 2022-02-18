@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5429BC65-F763-2F1B-64D3-EF0C188871E3" containerWithKeyObject="96B898DB-B3DA-0722-9D3A-BFBAE5DF56FD" localFKIndex="D3A43420-3751-E31C-FEF9-78C7DE85A3BF" name="TABLE_14_AREA_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:24:22 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<referredTableLongName>AREA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3E690FF0-A224-904A-877A-EAE91A18679F</referredTableID>
+<keyObject>2BD3DAF2-851D-D4B8-2C75-4C4D3873FC88</keyObject>
+<referredKeyID>2BD3DAF2-851D-D4B8-2C75-4C4D3873FC88</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIPO_AREA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

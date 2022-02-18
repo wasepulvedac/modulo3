@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Empleado EstadoCivil FK" directorySegmentName="seg_0" id="AF388A1C-13B7-474E-5CB3-4E97BFFD3E63">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>DDFDBB63-2354-5BF4-0FDB-1C636C89B4CD</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+</engineerTo>
+<sourcePk>19994C66-8F40-A80A-BE83-7E42EE7ACD4F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>17C4FE0F-90F2-1D3D-9EED-FB15020EB57E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>343013D4-80DC-CDD5-C5B4-18333772F04A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

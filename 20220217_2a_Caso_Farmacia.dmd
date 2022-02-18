@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="20220217_2a_Caso_Farmacia" id="70CBC51C-3B02-B4E2-E9E4-F83CA7011B6A" version="3.5">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 14:13:13 UTC</createdTime>
+<ownerDesignName>20220217_2a_Caso_Farmacia</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>70CBC51C-3B02-B4E2-E9E4-F83CA7011B6A</designId>
+</OSDM_Design>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RegistroAsistencia Empleado FK" directorySegmentName="seg_0" id="1C4788AC-0940-0499-BFF4-657E30C799B9">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:20:32 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap</ownerDesignName>
+<importedID>8F735BB8-24A6-2F16-2B6D-B41233459EA9</importedID>
+<engineerTo>
+<item key="4704AFB2-04EA-8114-6BEA-CBFB4D078C00" value="true"/>
+</engineerTo>
+<sourcePk>4BD4B0C0-AE85-0475-3774-2C6D6BCC2C1B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>343013D4-80DC-CDD5-C5B4-18333772F04A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>408E3251-60D9-302F-4C26-C493556AB72F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

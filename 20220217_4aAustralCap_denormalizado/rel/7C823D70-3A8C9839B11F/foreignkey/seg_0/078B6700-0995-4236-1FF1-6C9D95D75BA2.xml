@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="078B6700-0995-4236-1FF1-6C9D95D75BA2" containerWithKeyObject="127A7896-960A-55C4-E539-2A0A80472A7F" localFKIndex="2ACCDC0B-78FC-4C1B-9610-5564C042B261" name="Registro_ALUMNO_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:55:14 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<referredTableLongName>ALUMNO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E6819488-D5B1-1719-05AF-5D94ADA35339</referredTableID>
+<keyObject>AB802BBE-6B7D-7C6A-C729-B5912522CE35</keyObject>
+<referredKeyID>AB802BBE-6B7D-7C6A-C729-B5912522CE35</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RUT_ALUMNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TABLE_17_TIPO_TITULO_FK" directorySegmentName="seg_0" id="98820B17-F8AE-B07F-E1D3-0873F3AB4B6E">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-18 14:38:25 UTC</createdTime>
+<generatorID>064A18B4-1976-A0DC-0C77-8E31F5B8CDE6</generatorID>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<engineerTo>
+<item key="7C823D70-349B-A3A6-5639-3A8C9839B11F" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>1D33D9F4-1ED3-006C-4D32-1B581468F41B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9481DA86-14C5-BA54-A243-EEB0D7ABECA7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>04137D62-1A9A-C23C-3DEE-92ED0DD40AA2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

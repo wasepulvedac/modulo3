@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="127A7896-960A-55C4-E539-2A0A80472A7F" name="REGISTRO">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:38:25 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FOLIO" id="BEA8615D-3513-E88E-129F-604C5367986A">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:43:00 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTA_FINAL" id="9FA1384D-DB1F-5AC9-13D5-7A4F8AE0572C">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:43:00 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIT_APRO_REPR" id="24C9E13C-243B-BEEF-0B0A-529B03B0AAFE">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:43:00 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CONTRATO" id="5BA45063-31D8-D7F8-C343-160D8BFCD9DE">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:43:00 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E34A439D-1A69-8193-AB58-AF98CE021A97" referredColumn="88DABE25-E90A-3128-F864-2D0C9BBD6C6E"/>
+</associations>
+</Column>
+<Column name="RUT_ALUMNO" id="5FCCADC1-58AE-C806-E8E6-E473DE589445">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:43:00 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="078B6700-0995-4236-1FF1-6C9D95D75BA2" referredColumn="7C9B1EB7-BFC7-979D-82F1-737CA085EABD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A1805D1-ABDD-CC37-EFB8-E6BE13A4237E" name="Registro_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:43:00 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEA8615D-3513-E88E-129F-604C5367986A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F910EF7-FB76-0782-CC77-7757C9076D5C" name="Registro_CONTRATO_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:55:14 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BA45063-31D8-D7F8-C343-160D8BFCD9DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2ACCDC0B-78FC-4C1B-9610-5564C042B261" name="Registro_ALUMNO_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:55:14 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FCCADC1-58AE-C806-E8E6-E473DE589445"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA7405A3-847E-4319-D8B6-07D8CF0D9E74" name="COMUNA">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 18:03:34 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMUNA" id="B58F1FAF-6C08-F8D3-FB19-50907639D666">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 18:05:20 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_COMUNA" id="046A75D5-60D0-AE16-6BAD-2811E41B8110">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 18:05:20 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_REGION" id="9D96EFDC-6958-DBE1-F2D1-1B407B56AF68">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 18:06:35 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCC873CB-AD89-5331-5B26-DE368C900EDC" referredColumn="7B9A1D34-3BF0-D07B-E81B-0819227D498F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4792E3B-80E2-5A0E-6F17-64FFA831A310" name="COMUNA_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 18:05:20 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B58F1FAF-6C08-F8D3-FB19-50907639D666"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACE0CA09-CEBD-F882-A053-5DA0F64EC264" name="COMUNA__UN">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 18:05:20 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="046A75D5-60D0-AE16-6BAD-2811E41B8110"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B308D161-0D86-6A2D-D151-7C18099B2735" name="COMUNA_REGION_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 18:06:35 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D96EFDC-6958-DBE1-F2D1-1B407B56AF68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

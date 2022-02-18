@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="274B2EE3-98F7-F486-CBBB-7246C66A7FE2" name="REGION">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 18:01:06 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_REGION" id="7B9A1D34-3BF0-D07B-E81B-0819227D498F">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 18:03:04 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_REGION" id="45850197-44A3-6649-82A4-A4ACCFFA96F4">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 18:03:04 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCADE4BA-57F2-D08C-C19E-5CABE38DB5FB" name="REGION_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 18:03:04 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B9A1D34-3BF0-D07B-E81B-0819227D498F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="091E838C-5646-1B8B-752D-9E01B2DBD45D" name="REGION__UN">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 18:03:04 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45850197-44A3-6649-82A4-A4ACCFFA96F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

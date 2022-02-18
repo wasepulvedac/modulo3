@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E690FF0-A224-904A-877A-EAE91A18679F" name="AREA">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:50:34 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO_AREA" id="31688A67-4D88-816B-EA90-4FCE1AD6E911">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:51:40 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_AREA" id="F7AD34C8-D653-5093-7097-617B203C484B">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:51:40 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NCONTRATOS" id="41BA02E3-C798-B883-EFD5-B4F1678C3D65">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-18 14:24:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[CAMPO para desnormalizar la relacion entre contrato y area, almacena un contador de la cantidad de contratos por area]]></commentInRDBMS>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BD3DAF2-851D-D4B8-2C75-4C4D3873FC88" name="AREA_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:51:40 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31688A67-4D88-816B-EA90-4FCE1AD6E911"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

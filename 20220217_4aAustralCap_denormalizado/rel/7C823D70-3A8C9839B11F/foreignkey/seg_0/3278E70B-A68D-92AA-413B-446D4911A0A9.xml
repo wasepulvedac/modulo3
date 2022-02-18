@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3278E70B-A68D-92AA-413B-446D4911A0A9" containerWithKeyObject="BBBF60DC-110B-0D29-09C2-585EA437789D" localFKIndex="BCED7B8A-09A5-C938-74CA-F819B3D9BA70" name="CONTRATO_EMPRESA_FK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 19:53:29 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<referredTableLongName>EMPRESA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E0EF2A71-98F9-E391-D302-7A76FBAB7D5F</referredTableID>
+<keyObject>9442DDCD-FCE8-B182-DD93-27332DBDF89C</keyObject>
+<referredKeyID>9442DDCD-FCE8-B182-DD93-27332DBDF89C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_EMPRESA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CF69287-9050-5C07-8AC5-06AD34A31AFE" name="CARGO_ALUMNO">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:43:19 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CARGO" id="22FDC70A-E7F3-F36E-9EC6-83B071EB299E">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:44:53 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_CARGO" id="EBA4B02A-5B82-108B-E65E-5B88C9A9C87A">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:44:53 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4347553-0C1B-ECA6-90EE-9D986F9F69CD" name="CARGO_ALUMNO_PK">
+<createdBy>w.cuevas</createdBy>
+<createdTime>2022-02-17 17:44:53 UTC</createdTime>
+<ownerDesignName>20220217_4aAustralCap_denormalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22FDC70A-E7F3-F36E-9EC6-83B071EB299E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
